@@ -1,0 +1,75 @@
+.flexCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 52px;
+}
+
+.btn {
+    min-width: 400px;
+    min-height: 200px;
+    margin-right: 25;
+    border-radius: 18px;
+    background-color: transparent;
+    border-color: red;
+    border-width: 3px;
+}
+
+.asJiwa {
+    background-image: url(../../assets/extras/asuransijiwa.jpeg);
+    background-size: cover;
+    border-radius: 18px;
+}
+
+.asJiwaText {
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.asKritis {
+    background-image: url(../../assets/extras/asuransikritis.jpg);
+    background-size: cover;
+    border-radius: 18px;
+}
+.asKritisText {
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.asKesehatan {
+    background-image: url(../../assets/extras/asuransikesehatan.jpeg);
+    background-size: cover;
+    border-radius: 18px;
+}
+
+.asKesehatanText {
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+  }
+  
+  .line {
+    flex-grow: 1;
+    border-top: 2px solid red; /* Adjust the line styling as needed */
+    height: 1px;
+    margin: 0px 53px; /* Adjust the margin as needed for spacing */
+  }
+  
+  .judulContentJenis {
+    margin: 0 10px; /* Adjust the margin as needed for spacing */
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: red;
+  }

@@ -1,0 +1,96 @@
+.contentASJ1 {
+    /* margin: 25px 190px; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.picAsJiwa {
+    width: 480px;
+    border-radius: 18px;
+}
+
+.contentASJ1-2 {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.titleAsJi {
+    font-size: 52px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.pAsJi {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.contentASJ2 {
+    margin: 25px 190px;
+}
+
+.subTitleASJ {
+    font-size: 32px;
+    color: red;
+    margin-bottom: 13px;
+    margin-top: 30px;
+}
+
+.str1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+  }
+  
+  .line {
+    flex-grow: 1;
+    border-top: 2px solid red; /* Adjust the line styling as needed */
+    height: 1px;
+    margin: 0px 53px; /* Adjust the margin as needed for spacing */
+  }
+
+.produkCont {
+    /* display: grid;
+    grid: 200px / 0px 400px 400px 400px 0px;
+    grid-gap: 10px; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 75px;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  .produkCont>button {
+    background-color: red;
+    /* text-align: center; */
+    /* padding:20px; */
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    border-radius: 18px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 30vw;
+
+    border: none;
+  }
+
+  #cursor {
+    cursor: pointer;
+  }
+  

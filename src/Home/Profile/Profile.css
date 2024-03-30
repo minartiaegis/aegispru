@@ -1,0 +1,75 @@
+.content1 {
+    min-height: 600px;
+    /* padding: 50px 0px; */
+    /* background-color: red; */
+    /* background: linear-gradient(to right, red, crimson); */
+    background-image: url(../../assets/extras/backgroundprofile.jpg);
+
+    margin: 70px 50px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.contProfile {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentProf {
+    display: flex;
+}
+
+.iprofile {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    /* margin-top: 40px; */
+}
+
+.nama {
+    margin-top: 50px;
+}
+
+.minarti {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    /* padding-bottom: 4px; */
+    color: #FFFFFF;
+}
+
+.jobTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 5px 0px
+}
+
+.email {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.detailCont {
+    /* background-color: white; */
+    text-align: center;
+    width: auto;
+}
+
+.detailButton {
+    background-color: transparent;
+    border-width: 0px;
+    color: #ff7d7d;
+}
+
+.textDetail {
+    font-size: 15px;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0%
+}
+
+.listNav {
+    list-style: none;
+
+    /* border: 2px black solid; */
+    min-width: 80px;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+
+    margin: 0px 25px;
+}
+
+.headers {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    padding: 25px 0px;
+    
+}
+.logo {
+    flex: 0.4;
+    align-self: center;
+}
+.navbar {
+    flex: 0.9;
+    align-self: center;
+}
+
+.navbarItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20;
+}
+
+.gapHeader {
+    flex: 0.15;
+}
+
+.aegis {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+
+    color: white;
+}
+
+.btnHeader {
+    background-color: transparent;
+    border-width: 0px;
+
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.active {
+    color: black; /* Change the color to black when active */
+    /* Add any other styles you want for the active button */
+  }

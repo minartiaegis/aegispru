@@ -1,0 +1,52 @@
+.backButton {
+    background-color: transparent;
+    border: none;
+
+    font-size: 20px;
+    color: red;
+}
+
+.backContPLNG {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.textHere {
+    font-size: 28px;
+    color: red;
+    font-weight: 700;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.produkCont1 {
+    display: grid;
+    grid: 30px / 100px 1300px ;
+    grid-gap: 10px;
+    margin-bottom: 75px;
+    justify-content: space-around;
+
+    border-top-width: 2px;
+    border-top-color: red;
+    border-top-style: solid;
+
+    border-bottom-width: 2px;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+  }
+
+  .sortAlpha {
+    list-style-type: lower-alpha;
+  }
