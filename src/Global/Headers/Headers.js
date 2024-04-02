@@ -8,7 +8,7 @@ export const Headers = () => {
 
   const handleHomeClick = () => {
     // Use navigate to go to the home route
-    navigate('/home');
+    navigate('/');
   };
 
   const handleCareerClick = () => {
@@ -29,7 +29,7 @@ export const Headers = () => {
             <ul className='navbarItem'>
                 <li className='listNav'>
                   <button 
-                    className={`btnHeader ${location.pathname === '/home' ? '' : ''}`}
+                    className={`btnHeader ${location.pathname === '/' ? '' : ''}`}
                     onClick={handleHomeClick}
                     id='cursor'
                   >

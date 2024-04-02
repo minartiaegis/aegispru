@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { HomePages } from './Page/HomePages';
 import { AsuransiJiwaPages } from './Page/AsuransiJiwaPages';
 import { AsuransiKritisPages } from './Page/AsuransiKritisPages';
@@ -20,9 +20,20 @@ import { PphProSyariahPages } from './Page/AsuransiKesehatan/PphProSyariahPages'
 import { PssProSyariahPages } from './Page/AsuransiKesehatan/PssProSyariahPages';
 // import AnotherComponent from './AnotherComponent';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function Routing() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
       <Route path='/' element={<HomePages />} />
         <Route path='/career' element={<CareerPages />} />
