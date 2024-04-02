@@ -25,8 +25,6 @@ function Routing() {
     <Router>
       <Routes>
       <Route path='/' element={<HomePages />} />
-
-        <Route path='/home' element={<HomePages />} />
         <Route path='/career' element={<CareerPages />} />
         <Route path='/contactus' element={<ContactUsPages />} />
 
